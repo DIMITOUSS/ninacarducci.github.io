@@ -351,4 +351,23 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+.info{
+	display: flex;
+	background-color: #BEB45A;
+	flex-direction: column;
 
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+.info span {
+	padding-top: 3rem;
+	margin: 0;
+}
+.location{
+margin-left: 2rem;
+}
+.phone{
+	padding: 0%;
+	margin: 0;
+}
