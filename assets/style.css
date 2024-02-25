@@ -95,6 +95,35 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
+.gallery .nav {
+	justify-content: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+.nav-pills .nav-link {
+	color: #000
+}
+.item-column {
+	position: relative;
+	margin-bottom: 0 !important;
+	padding: 0;
+}
+.item-column::after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+
+}
+.gallery-item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	padding: .5em;
+}
 
 .quote {
 	font-family: 'Spectral';
@@ -219,3 +248,4 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
+
