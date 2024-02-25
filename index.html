@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr " >
+<html lang="fr" >
 <head>
 	<meta charset="UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="manifest" href="~/manifest.json">
+
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,14 +96,14 @@
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp  " alt="Mateus Campos" />
 			</div>
 		</div>
-		<div class="quote">
+		<aside class="quote">
 			<figure>
 				<blockquote>
 					<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
-		</div>
+		</aside>
 	</section>
 	<section id="services">
 		<h2 class="title">Mes services</h2>
@@ -138,21 +141,21 @@
 			</div>
 		</div>
 	</section>
-	<section class="quote">
+	<aside class="quote">
 		<figure>
 			<blockquote>
 				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
-	</section>
+	</aside>
 
 </main>
 
 
 
-<footer>
-	<div id="contact">
+
+	<section id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
@@ -171,8 +174,26 @@
 			<img src="./assets/images/camera.webp" alt="Camera">
 		</div>
 	</div>
-</div>
-</footer>
+	</section>
+	<footer>
+			<h2 itemprop="name">Nina Carducci, Photographe</h2>
+			<div class="info">
+				<div class="location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+					<p itemprop="streetAddress"> 68 avenue Alsace-Lorraine</p>
+					<span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux.</span>
+				</div>
+				<div class="phone">
+<p itemprop="openingHours" content="Mo-Fri 10:00-19:00" >du lundi au vendredi </p>
+<p>de 10h à 19h au:</p>
+<strong itemprop="telephone">05 56 67 78 89</strong>
+
+				</div>
+			</div>
+
+
+
+	</footer>
+
 
 </body>
 </html>
