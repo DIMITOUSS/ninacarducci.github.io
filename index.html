@@ -7,9 +7,10 @@
 <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 
 
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+<link rel="preload" href="./assets/style.css" as="style">
+<link rel="preload" href="https://fonts.googleapis.com" as="font" crossorigin>
+
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
@@ -18,17 +19,22 @@
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
 	<meta name="description" content="Découvrez les superbes photos capturées par notre photographe professionnel basé à Bordeaux. Spécialisé dans les portraits, les événements, et plus encore. Contactez-nous dès maintenant pour réserver une séance. Situé au 68 avenue Alsace-Lorraine, 33200 Bordeaux.">
-
 	<script type="application/ld+json">
 		{
-		  "@id": "https://dimitouss.github.io/ninacarducci.github.io/",
-		  "@type": "http://schema.org/Event",
-		  "http://schema.org/description": "Please attend. You'll love it!",
-		  "http://schema.org/name": "Presenting Foo",
-		  "http://schema.org/startdate": "2022-05-24",
-		  "http://schema.org/location": "Back room"
+		  "@context": "https://schema.org",
+		  "@type": "Photograph",
+		  "name": "Nina Carducci, Photographe",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"postalCode": "33200",
+			"addressLocality": "Bordeaux"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": "Mo-Fri 10:00-19:00"
 		}
-	  </script>
+		</script>
+		
 	<title> Nina Carducci</title>
 </head>
 <body>
